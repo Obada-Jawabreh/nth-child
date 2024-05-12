@@ -1,0 +1,20 @@
+div{
+    background-color: red;
+    width: 50px;
+    height: 40px;
+    margin: 40px;
+}
+.s1 section{
+    display: inline-block;    
+}
+.s1 section div {
+display: inline-block;
+position: relative;
+}
+
+.s1 section:nth-child(even) div{
+    background-color: blue;
+} 
+.s1 section:nth-child(odd) div::after{
+content: "*";
+position: absolute;} 

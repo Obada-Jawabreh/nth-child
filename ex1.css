@@ -1,0 +1,11 @@
+p{
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid;
+}
+:nth-child(odd of p){
+    background-color: yellow;
+    margin-bottom: 40px;
+}

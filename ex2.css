@@ -1,0 +1,11 @@
+p{
+    background-color: red;
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid;
+    text-align: center;
+}
+:nth-child(even of p){
+    display: none;
+} 
